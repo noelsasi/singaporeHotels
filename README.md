@@ -7,9 +7,13 @@ stack used
 - NodeJs, MongoDB, Express
 
 
-steps to run
+steps to initialize the project
 
 - npm install
 - cd backend && npm install
+
+how to run ?
+- npm run start 
+- cd backend && nodemon
 
 
