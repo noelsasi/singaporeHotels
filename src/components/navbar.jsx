@@ -3,9 +3,9 @@ import React from "react";
 function navbar() {
   return (
     <div>
-      <nav className="nav-navbar">
-        <div className="text-center head-text">
-          <h3>Singapore Hotels</h3>
+      <nav class="navbar navbar-dark bg-custom d-flex justify-content-center">
+        <div class="navbar-brand brand-text title">
+          <span class="fa fa-bank"></span> Singapore Hotels
         </div>
       </nav>
     </div>

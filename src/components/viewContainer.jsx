@@ -42,7 +42,6 @@ class viewContainer extends Component {
         return hotel.neighbourhood.match(regex);
       }
     });
-
     this.setState({
       hotelSearch: searchHotel
     });
@@ -50,6 +49,8 @@ class viewContainer extends Component {
 
   render() {
     const { hotelSearch, hotels } = this.state;
+    console.log(this.state.hotelSearch);
+
     return (
       <div className="col-md-12 mt-4  main-container">
         <div className="filters">

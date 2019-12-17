@@ -12,7 +12,7 @@ function search(props) {
       <span role="img" aria-label="search-icon">
         🔍
       </span>
-      <input placeholder="Search for a Match" onChange={handleChange} />
+      <input placeholder="Search for a Hotel" onChange={handleChange} />
     </div>
   );
 }
