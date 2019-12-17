@@ -13,7 +13,6 @@ steps to initialize the project
 - cd backend && npm install
 
 how to run ?
-- npm run start 
-- cd backend && nodemon
+- npm run dev
 
 
